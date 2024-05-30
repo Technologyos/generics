@@ -1,5 +1,8 @@
 package com.jauregui.developer.generics.utils;
 
+import com.jauregui.developer.generics.models.Hash;
+import com.jauregui.developer.generics.models.Store;
+
 public class GenericType {
 
     public static <T> void showItem(T item){
@@ -22,6 +25,20 @@ public class GenericType {
     public static <T, V> void printItems(T t, V v){
         System.out.println(t.toString());
         System.out.println(v.toString());
+    }
+
+    public static String displayStoreItem(){
+        //Raw type
+        //<> diamond operator
+        Store<String> store = new Store<>();
+        store.setItem("Milk");
+        return store.getItem();
+    }
+
+    public static String getHashValue(){
+        Hash<Integer, String> hash = new Hash<>();
+        hash.add(1, "12345");
+        return hash.getValue();
     }
 
     /**
