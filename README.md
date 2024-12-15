@@ -1,6 +1,7 @@
 Generics
 
-https://gist.github.com/ArmandoSJ/be8d4e2c1ac0dfdebe6cfae2fc5a4c4c
+[Generics type](https://gist.github.com/ArmandoSJ/be8d4e2c1ac0dfdebe6cfae2fc5a4c4c)
+
 
 
 #### Generics in Java
