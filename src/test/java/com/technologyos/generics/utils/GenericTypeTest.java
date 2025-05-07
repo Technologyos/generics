@@ -1,4 +1,4 @@
-package com.jauregui.developer.generics.utils;
+package com.technologyos.generics.utils;
 
 import org.junit.jupiter.api.Test;
 

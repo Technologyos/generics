@@ -1,8 +1,6 @@
-package com.jauregui.developer.generics.utils;
+package com.technologyos.generics.utils;
 
 import org.junit.jupiter.api.Test;
-
-import java.util.Comparator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
