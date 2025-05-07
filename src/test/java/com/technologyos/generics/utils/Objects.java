@@ -1,7 +1,6 @@
-package com.jauregui.developer.generics.utils;
+package com.technologyos.generics.utils;
 
-import com.jauregui.developer.generics.models.Store;
-import com.jauregui.developer.generics.models.User;
+import com.technologyos.generics.models.User;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
