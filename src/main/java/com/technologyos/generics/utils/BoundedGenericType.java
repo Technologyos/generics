@@ -1,18 +1,14 @@
 package com.technologyos.generics.utils;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 public class BoundedGenericType {
+   @Getter
+   @AllArgsConstructor
    static class Person implements Comparable<Person>{
       private final int age;
-      private String name;
-
-      public Person(String name, int age){
-         this.name = name;
-         this.age = age;
-      }
-
-      public int getAge() {
-         return age;
-      }
+      private final String name;
 
       @Override
       public int compareTo(Person otherPerson) {
